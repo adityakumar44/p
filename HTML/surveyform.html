@@ -1,0 +1,127 @@
+<!-- https://codepen.io/gregg50/pen/QWwOVKV -->
+
+<!doctype html>
+<html>
+<link rel="stylesheet" href="surveyform.css">
+
+<head>
+    <title>survey form</title>
+</head>
+
+<body>
+    <div class="border">
+        <div class="heading">
+            Application For Permission To Date My Daughter
+        </div>
+        <div class="note"><b>Note:</b> Form is to be completed at least 21 dats prior to date.</div>
+        <!-- ---------------Personal Details--------------------- -->
+
+        <form>
+            <fieldset>
+                <legend>Personal Details</legend>
+                <div>
+                    <lable id="name" for="name">Name:</lable>
+                    <input type="text" placeholder="Enter name here">
+                </div>
+                <div>
+                    <label for="address" id="address">Address:</label>
+                    <input type="text" placeholder="Enter address here">
+                </div>
+                <div>
+                    <label for="email" id="email">Email:</label>
+                    <input type="text" placeholder="Enter email here">
+
+                </div>
+                <div>
+                    <label for="phone number" id="phone_number">Phone Number:</label>
+                    <input type="number" placeholder="Enter 10 digit number" max="10">
+                </div>
+                <div>
+                    <label for="iq" id="iq">IQ:</label>
+                    <input type="number" placeholder="Enter IQ here">
+                </div>
+                <div>
+                    <label for="Gender" class="gender">Gender</label>
+                    <p>
+                        <input type="radio">Male <br>
+                        <input type="radio">Female <br>
+                        <input type="radio">Other <br>
+                    </p>
+                </div>
+                <div>
+                    <label for="date">Date of proposed Outing:</label>
+                    <input typre="date">
+
+                </div>
+            </fieldset>
+        </form>
+        <!-- ---------------checkbox---------------- -->
+
+        <form>
+            <fieldset>
+                <label for="avalibility">Check All That Apply</label>
+                <p>
+                    <input type="checkbox" name="tattoo" value="tattoo"> I have tattoos and/or piercings<br>
+                    <input type="checkbox" name="age" value="Car"> I am more than 2 years older than my daughter<br>
+                    <input type="checkbox" name="car" value="car"> I own a panel van or V8 ute<br>
+                    <input type="checkbox" name="work" value="work" checked> I work full-time<br>
+                    <input type="checkbox" name="rich" value="rich" checked> My parents are rich<br>
+                    <input type="checkbox" name="loc" value="loc" checked> Is the date at a well lit public location<br>
+                </p>
+            </fieldset>
+        </form>
+
+        <form>
+            <fieldset>
+                <div>
+                    <label for="politics">Political Persuasion:</label>
+                    <br>
+                    <select id="dropdown">
+                        <option value="left">Left Wing</option>
+                        <option value="right">Right Wing</option>
+                        <option value="conservative">Conservative</option>
+                        <option value="nazi">Nazi</option>
+                    </select>
+                </div>
+
+                <div>
+                    <lable for="Educatiom"> Education Level Completed:</lable>
+                    <br>
+                    <select id="dropdown2">
+                        <option value="University">University</option>
+                        <option value="College">College</option>
+                        <option value="Secondary">High School</option>
+                        <option value="None">None</option>
+                    </select>
+                </div>
+            </fieldset>
+        </form>
+
+        <form>
+            <fieldset>
+                <legend>Essay Section</legend>
+                <div>
+                    <lable for="msg">In 50 words or more explain whyyou want to date my daughter</lable>
+                    <p>
+                        <textarea id="msg" placeholder="Enter text here" rows="4" cols="40"> </textarea>
+                    </p>
+                </div>
+                <lable for="details">Please upload contact details for 2 references</lable>
+                <br>
+                <textarea id="details" placeholder="Enter text here" rows="4" cols="40"></textarea>
+
+                <div>
+                    <p> Upload police clearance certificate, Bank statement and mmedical certification here:</p>
+                    <button id="attach_file">Attach Files</button>
+                </div>
+            </fieldset>
+
+        </form>
+        <div id="submitbutton">
+            <button type="submit" id="submit">Send your application</button>  
+
+        </div>
+    </div>
+</body>
+
+</html>

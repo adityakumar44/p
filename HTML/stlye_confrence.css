@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header,footer{
+    background-color:#293f50;
+}
+
+#block1{
+
+    display:flex;
+}
+
+.left_block{
+    color:white;
+    
+}

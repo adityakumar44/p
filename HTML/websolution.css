@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    line-height:1.5;
+    margin:0px;
+    background:#333;
+    color:#f7f1f1;
+    text-align:center;
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#image_content{
+    background-image: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+    background-position: center;
+    background-size:cover;
+    height: 450px;
+    width: 100%;
+    opacity:0.4;
+    padding-top:3cm;
+}
+h1{
+    padding: 2cm 0cm 0cm 0cm;
+    margin: 0;
+    font-size: 30px;
+}
+
+#image_content p{
+    padding-top: 0.2cm;
+}
+
+#image_content a{
+    text-decoration:none;
+    font-size:15px;
+    color: white;
+    border: 1px solid #666;
+    padding: 20px 30px;
+    display: inline-block;
+    margin-top:10px;
+    background-color: rgb(66, 64, 64);
+    border-radius: 0.5cm;
+}
+#image_content a:hover{
+    background-color: #ffff;
+    color:black;
+}
+#section-a {
+    color:black;
+    background-color:white;
+    padding: 17px;
+}
+#section-a h2{
+    padding-bottom: 10px;
+    font-size: 22px;
+}
+#section-a p{
+    columns: 2;
+    column-gap:2em;
+    line-height: 20px;
+   margin-left:7cm;
+   margin-right:7cm;
+   height: 3cm;
+    
+}
+#section-b{
+    display: flex;
+    margin: 25px;
+    margin-left:7cm;
+    margin-right:7cm;
+    column-gap: 10px;
+    color: black;
+}
+.image_size{
+    background-position:;
+    height: 5cm;
+    width: 6.5cm;
+}
+
+#section-b .content{
+    background-color:#ffff;
+    height: 12cm;
+}
+#section-b h4{
+    font-size: 20px;
+    margin:1cm;
+}
+#section-b p{
+    height: 15px;
+}
+#section-c{
+    background-color: #ffff;
+    color: black;
+    padding: 1cm;
+}
+#section-c h5{
+    font-size: 25px;
+    margin-bottom: 20px;
+    
+}
+#section-d{
+    display: flex;
+
+}
+.block1{
+    background-color: #2690d4;
+    width: 20cm;
+    height: auto;
+}
+.block1 h2{
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    
+}
+
+.block2 {
+    width: 20cm;
+}
+
+.block2 h2{
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+}
+.content2{
+    padding: 0.5cm;
+}
+footer{
+    background-color:black;
+    columns: 2;
+    padding: 1cm 0cm 1cm 0cm  ;
+}
+footer a{
+    text-decoration: none;
+    color: #2690d4;
+}

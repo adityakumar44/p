@@ -1,0 +1,75 @@
+body {
+    background-color:rgb(187, 216, 241)
+}
+
+.main {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    color:rgba(21, 90, 155, 0.801);
+    text-align:center;
+}
+.formula {
+    text-align:center;
+    color:green;
+    font-size: 25px;
+}
+
+#photo {
+    height: 400px;
+    width: 250px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/50/Albert_Einstein_%28Nobel%29.png);
+    background-size:cover;
+    background-color:red;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+#photo_text{
+    font-size: 19px;
+    font-weight:bold;
+    text-align:center;
+    line-height: 25px;
+}
+.main_content{
+    background-color:rgba(96, 179, 167, 0.603);
+    border-style: double;
+    border-width: 5px;
+    border-radius: 15px;
+    border-color:lightblue;
+    font-family:'Courier New', Courier;
+    line-height: inherit;
+    margin-left: 125px;
+    margin-right:125px;
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height:50px;
+}
+.last{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: serif;
+    margin-left: 20px;
+
+}
+.name{
+    padding-left: 20px;
+    line-height: 55px;font-family: normal;
+    font-size:15px;
+}
+.link{
+    font-family: normal;
+    font-size: 18px;
+    color:rgb(187, 37, 130);
+    
+}
+a{
+    color:aqua;
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+    text-decoration: none;
+}
